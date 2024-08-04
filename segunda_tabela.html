@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Segunda Tabela</title>
+    <style>
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        .header {
+            height: 100px;
+            background-color: #7A4D9F;
+        }
+        .menu {
+            width: 150px;
+            background-color: #FEFCFF;
+        }
+        .content {
+            width: 300px;
+            height: 300px;
+            background-color: #EB68A0;
+        }
+        .footer {
+            height: 50px;
+            background-color: #A8DACD;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela 2</h1>
+    <table style="border: 5px solid black;">
+        <tr>
+            <td class="header" colspan="3">Topo</td>
+        </tr>
+        <tr>
+            <td class="menu">Menu</td>
+            <td class="content">Conteúdo</td>
+        </tr>
+        <tr>
+            <td class="footer" colspan="3" >Rodapé</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
